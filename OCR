@@ -1,0 +1,7 @@
+#ocr
+
+install.packages("tesseract")
+library(tesseract)
+
+text <- ocr('/Users/Macbook/Desktop/Screen Shot 2017-04-19 at 00.28.40.png')
+cat(text)
